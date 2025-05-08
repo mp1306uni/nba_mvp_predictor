@@ -1,3 +1,8 @@
+# ignore everything in models/
+models/*
+# except class_map.json
+!models/class_map.json
+
 # Python artifacts
 __pycache__/
 *.pyc
@@ -10,8 +15,6 @@ env/
 data/raw/
 data/external/
 
-# Model binaries
-models/
 
 # IDE/editor
 .vscode/
