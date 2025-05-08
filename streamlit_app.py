@@ -1,9 +1,3 @@
-
----
-
-## Updated `streamlit_app.py`
-
-```python
 import os, json
 import pandas as pd
 import streamlit as st
