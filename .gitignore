@@ -1,0 +1,18 @@
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+env/
+
+# Data you don’t want in git
+data/raw/
+data/external/
+
+# Model binaries
+models/
+
+# IDE/editor
+.vscode/
+*.swp
