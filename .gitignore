@@ -13,7 +13,11 @@ env/
 
 # Data you don’t want in git
 data/raw/
-data/external/
+# ignore everything in data/external…
+data/external/*
+# …except the MVP votes CSV
+!data/external/mvp_votes.csv
+
 
 
 # IDE/editor
